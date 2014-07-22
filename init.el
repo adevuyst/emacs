@@ -26,9 +26,7 @@
 (require 'magit-find-file) ;; if not using the ELPA package
 (global-set-key (kbd "C-c p") 'magit-find-file-completing-read)
 
-
 (load "~/.emacs.d/jvm.el")
-
 
 ;;(require 'ensime)
 ;;(require 'scala-mode2)
