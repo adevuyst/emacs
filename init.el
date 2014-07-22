@@ -36,7 +36,6 @@
 ;;(add-to-list 'auto-mode-alist '("\.scala" . scala-mode2) '("\.sbt\'" . scala-mode2) )
 
 (require 'dirtree)
-(
 (show-paren-mode 1)
 (setq show-paren-delay 0)
 

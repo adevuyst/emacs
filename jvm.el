@@ -15,6 +15,7 @@
 			    (setq c-basic-offset 4
 				  tab-width 4
 				  indent-tabs-mode nil)))
+(load "~/.emacs.d/java-mode-indent-annotations.el")
 
 (require 'java-mode-indent-annotations)
 
