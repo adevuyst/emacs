@@ -29,6 +29,7 @@
     ess
     ess-R-data-view
     ess-R-object-popup
+    helm
   ) "a list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed

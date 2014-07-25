@@ -19,15 +19,16 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
-;;(require 'auto-complete)
+(require 'auto-complete)
 ;; Try Icicles instead!
-(require 'icicles)
+;;(require 'icicles)
 (require 'magit) 
 (require 'magit-find-file) ;; if not using the ELPA package
 (global-set-key (kbd "C-c p") 'magit-find-file-completing-read)
 
 (load "~/.emacs.d/jvm.el")
-
+(require 'helm)
+(helm-mode 1)
 ;;(require 'ensime)
 ;;(require 'scala-mode2)
 ;;(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
@@ -39,4 +40,5 @@
 (show-paren-mode 1)
 (setq show-paren-delay 0)
 
-(ido-mode)
+;;(ido-mode)
+(load "~/.emacs.d/keybinds.el")
