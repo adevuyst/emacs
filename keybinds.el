@@ -23,6 +23,6 @@
   (helm-do-grep-1 '("/home/adev/workspace/yieldmo-tld/")
                   '(4)
                   nil
-                  '("*.java" "*.scala" "*.proto" "*.hbs" "*.coffee" "*.js" "*.html" "*.xml" "*.sbt" "*.project" "*.gitignore" "*.config" "*.cfg" "*.json")))
+                  '("*.java" "*.scala" "*.proto" "*.hbs" "*.coffee" "*.js" "*.html" "*.xml" "*.sbt" "*.project" "*.gitignore" "*.config" "*.cfg" "*.json" "*.rb")))
 
 (global-set-key [f2] 'project-search)
